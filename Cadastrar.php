@@ -29,7 +29,7 @@
         </div>
         <div class="form-group">
             <label for="Tel">Tel</label>
-            <input class="form-control" id="Tel" name="Tel" type="text" placeholder="Digite seu telefone">   
+            <input maxlength="11" class="form-control" id="Tel" name="Tel" type="text" placeholder="Digite seu telefone">   
         </div>
       
           <input type="Submit">  

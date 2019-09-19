@@ -46,7 +46,7 @@
                     $mat = $array["mat"];
                     $nome = $array["nome"];
                     $email = $array["email"];
-                    $telefone = $array["telefone"];
+                    $telefone = $array["Telefone"];
                      
              
              
@@ -60,7 +60,7 @@
                 <td><?php echo $email; ?></td>
                 <td><?php echo $telefone;  ?></td>
                 <td><a class="btn btn-primary" href="editar.php/?nome=<?php echo $nome ?>&email=<?php echo $email; ?>&telefone=<?php echo $telefone ?>">Editar</a></td>
-                <td><a class="btn btn-danger" type="button" href="" >Excluir</a></td>
+                <td><a class="btn btn-danger" type="button" href="excluir.php/?nome=<?php echo $nome ?>&email=<?php echo $email; ?>&telefone=<?php echo $telefone ?>" >Excluir</a></td>
 
                 
                 

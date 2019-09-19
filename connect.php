@@ -1,6 +1,6 @@
 <?php
     
-    $con = mysqli_connect("localhost", "root", "", "hoginacio");
+    $con = mysqli_connect("localhost", "root", "", "escola");
     
 
 
